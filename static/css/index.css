@@ -73,6 +73,14 @@ body {
 
 .team-card { padding: 1rem 0.5rem; }
 
+.team-group-photo {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  min-height: 280px;
+}
+.team-group-photo img { display: block; width: 100%; height: auto; }
+
 .team-name { color: #111827; }
 .team-name:hover { color: var(--brand-accent); text-decoration: underline; }
 .team-linkedin-icon { color: #0a66c2; vertical-align: middle; }
