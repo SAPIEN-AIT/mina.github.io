@@ -59,9 +59,21 @@ body {
   box-shadow: none;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-.capability-card:hover {
+.capability-link {
+  display: block;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.capability-link:hover { color: inherit; }
+.capability-link:hover .capability-card {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+.capability-cta {
+  color: var(--brand-accent);
+  font-weight: 500;
+  margin-top: 0.75rem;
 }
 
 .team-avatar {
