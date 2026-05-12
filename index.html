@@ -61,14 +61,8 @@
 
   <section class="section pt-0">
     <div class="container is-max-desktop">
-      <figure class="image hero-media placeholder">
-        <!-- Replace with: <img src="static/images/hero.jpg" alt="mina humanoid robot"> -->
-        <!-- Or a video: <video autoplay muted loop playsinline poster="static/images/hero-poster.jpg"><source src="static/videos/hero.mp4" type="video/mp4"></video> -->
-        <div class="placeholder-inner">
-          <i class="fas fa-image fa-3x"></i>
-          <p>Hero image / video</p>
-          <small>Add <code>static/images/hero.jpg</code> or <code>static/videos/hero.mp4</code></small>
-        </div>
+      <figure class="image hero-media">
+        <img src="static/images/mina.jpeg" alt="mina humanoid robot">
       </figure>
     </div>
   </section>
@@ -172,9 +166,10 @@
       <p class="has-text-centered has-text-grey mb-5">Demos and walkthroughs.</p>
       <div class="columns is-multiline">
         <div class="column is-half">
-          <figure class="image is-16by9 placeholder">
-            <!-- Replace with: <video controls poster="static/images/demo-1-poster.jpg"><source src="static/videos/demo-1.mp4" type="video/mp4"></video> -->
-            <div class="placeholder-inner"><i class="fas fa-video fa-2x"></i><small>static/videos/demo-1.mp4</small></div>
+          <figure class="image is-16by9">
+            <video class="demo-video" controls preload="metadata">
+              <source src="static/videos/standing.mp4" type="video/mp4">
+            </video>
           </figure>
         </div>
         <div class="column is-half">
@@ -191,13 +186,8 @@
       <h2 class="title is-3 has-text-centered">Team</h2>
       <p class="has-text-centered has-text-grey mb-5">The people building mina.</p>
 
-      <figure class="image team-group-photo placeholder mb-6">
-        <!-- Replace with: <img src="static/images/team-group.jpg" alt="The mina team"> -->
-        <div class="placeholder-inner">
-          <i class="fas fa-image fa-3x"></i>
-          <p>Group team photo</p>
-          <small>Add <code>static/images/team-group.jpg</code></small>
-        </div>
+      <figure class="image team-group-photo mb-6">
+        <img src="static/images/team.jpeg" alt="The mina team">
       </figure>
 
       <div class="columns is-multiline is-centered">
