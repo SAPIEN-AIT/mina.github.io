@@ -74,7 +74,9 @@ body {
 .team-card { padding: 1rem 0.5rem; }
 
 .team-name { color: #111827; }
-.team-name:hover { color: var(--brand-accent); }
+.team-name:hover { color: var(--brand-accent); text-decoration: underline; }
+.team-linkedin-icon { color: #0a66c2; vertical-align: middle; }
+.team-name:hover .team-linkedin-icon { color: var(--brand-accent); }
 
 .team-bio {
   color: #4b5563;
